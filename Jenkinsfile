@@ -7,6 +7,8 @@ stage('ChekoutCode'){
  git credentialsId: '34e0d9c1-4538-4a43-b898-74baa94aeee5', url: 'https://github.com/abhigouraj/mt-maven-web-application.git'
 }
 
+/*
+
 //Build Stage
 stage('Build'){
  sh "$mavenHome/bin/mvn clean package"
@@ -29,4 +31,5 @@ sh "scp -o StrictHostKeyChecking=no  target/maven-web-application.war  ec2-user@
 }
 }
 
+*/
 }//Node Closing
